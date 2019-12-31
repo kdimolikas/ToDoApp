@@ -11,7 +11,7 @@ The use cases of this application are the following:
 * Add a new task.
 * (Un-)check a task.
 
-##Testing
+## Testing
 [Unit tests](app/src/test) were created for the majority of the app's classes using [Robolectric][1], [JUnit4][2] and [Mockito][3] frameworks.
 
 [1]:http://robolectric.org/ 
