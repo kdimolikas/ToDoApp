@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">ToDoApp</string>
+	<string name="delete_btn">Delete</string>
+	<string name="hint_text">TO-DO...</string>
+	<string name="button_save">Save</string>
+	<string name="empty_not_saved">Content not saved because it is empty</string>
+	<string name="button_deleteAll">Delete All</string>
+</resources>

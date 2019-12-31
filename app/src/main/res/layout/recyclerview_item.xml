@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content">
+	<CheckedTextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/checkedTextView"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:checked="false"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+			android:clickable="true" android:focusable="true" />
+	<ImageButton android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+				 android:src="@drawable/ic_delete_red_24dp"
+				 android:contentDescription="@string/delete_btn"
+				 android:background="@android:color/white"
+				 android:id="@+id/imageBtn_delete" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+</LinearLayout>
